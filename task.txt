@@ -1,9 +1,8 @@
 Install wamp
-Share Todo
+Share Todo and git graph extension
 Readme file check and approve
 Collect all the names of ISPs available to us
 Collect the link of web site having their mobile plan of all the ISP
-Develop a logo for project
 Create a DB
 Create necessary tables 
 TODO: plan the necessary tables we need
