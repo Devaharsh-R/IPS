@@ -1,3 +1,5 @@
+create a regular grammer and draw DFA for plan data taking
+How to add gitignore of subfolder
 Collect all the names of ISPs available to us
 Collect the link of web site having their mobile plan of all the ISP
 Create necessary tables 
