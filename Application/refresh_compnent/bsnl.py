@@ -1,10 +1,15 @@
 from refresh_compnent import accessKey as key
 
 def bsnl(data):
+    filteredContent={}
     # RE for cost: (0-9)*
-    for value in data['cost']: 
-            if not value.isdigit(): #checking the data is not a number
-                data['cost'].remove(value)# removing other data except numbers in elemeets
+    temp=[] # empty list for cost
+    for value in data['content']: 
+            if  value.isdigit(): #checking the data is not a number
+                temp.append(value) # inserting cost value to list
+    filteredContent['cost']=temp # inserted the list
     # RE for plan: ('Plan'+'FRC').'-'.(0-9)*
+    temp=[] # empty list for plan
     #TODO PLAN data filter
-    return data
+    filteredContent['plan']=temp
+    return filteredContent

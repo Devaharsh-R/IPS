@@ -3,6 +3,6 @@ import sys
 
 ispName = sys.argv[1]
 refreshedData=gd.getData(ispName)
-print(refreshedData['cost'].__len__())
-print(refreshedData['cost'])
+for key in refreshedData:
+    print('\n\n',key,' : ',refreshedData[key])
 # TODO Take all the wanted data from the site

@@ -1,8 +1,8 @@
 # refresh.py
 accessKey={
     'bsnl':{
-        'cost':"tr.table_conn",
-        'plan':"tr.table_top"
+        'content':"tr.table_conn",
+        'heading':"tr.table_top"
     }
 }
 ispUrl={
